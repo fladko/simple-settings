@@ -5,7 +5,7 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "'fladko'",
+            "name": "fladko",
             "email": "vladbabenko60@gmail.com"
         }
     ],
@@ -14,13 +14,6 @@
     "autoload": {
         "psr-4": {
             "Fladko\\SimpleSettings\\": "src/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Fladko\\SimpleSettings\\SimpleSettingsServiceProvider\\"
-            ]
         }
     }
 }
