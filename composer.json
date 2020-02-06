@@ -1,0 +1,26 @@
+{
+    "name": "fladko/simple-settings",
+    "description": "Simple module for site sittings",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "'fladko'",
+            "email": "vladbabenko60@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Fladko\\SimpleSettings\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fladko\\SimpleSettings\\SimpleSettingsServiceProvider\\"
+            ]
+        }
+    }
+}
